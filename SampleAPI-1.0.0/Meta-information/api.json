@@ -1,0 +1,143 @@
+{
+  "id": {
+    "providerName": "admin",
+    "apiName": "SampleAPI",
+    "version": "1.0.0"
+  },
+  "uuid": "0190a80c-0798-46e5-a761-05134cc7cd23",
+  "type": "HTTP",
+  "context": "/abc/1.0.0",
+  "contextTemplate": "/abc/{version}",
+  "tags": [],
+  "documents": [],
+  "lastUpdated": "Jun 3, 2019 4:59:27 PM",
+  "availableTiers": [
+    {
+      "name": "Unlimited",
+      "displayName": "Unlimited",
+      "description": "Allows unlimited requests",
+      "requestsPerMin": 2147483647,
+      "requestCount": 2147483647,
+      "unitTime": 0,
+      "timeUnit": "ms",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    }
+  ],
+  "availableSubscriptionLevelPolicies": [],
+  "uriTemplates": [
+    {
+      "uriTemplate": "/Foo",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/bar",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/abc",
+      "httpVerb": "PUT",
+      "authType": "Any",
+      "httpVerbs": [
+        "PUT"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    }
+  ],
+  "apiHeaderChanged": false,
+  "apiResourcePatternsChanged": false,
+  "status": "CREATED",
+  "visibility": "public",
+  "endpointSecured": false,
+  "endpointAuthDigest": false,
+  "transports": "http,https",
+  "inSequence": "test",
+  "advertiseOnly": false,
+  "corsConfiguration": {
+    "corsConfigurationEnabled": false,
+    "accessControlAllowOrigins": [
+      "*"
+    ],
+    "accessControlAllowCredentials": false,
+    "accessControlAllowHeaders": [
+      "authorization",
+      "Access-Control-Allow-Origin",
+      "Content-Type",
+      "SOAPAction"
+    ],
+    "accessControlAllowMethods": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE",
+      "PATCH",
+      "OPTIONS"
+    ]
+  },
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"https://www.mocky.io/v2/5185415ba171ea3a00704eed\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"https://www.mocky.io/v2/5185415ba171ea3a00704eed\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "responseCache": "Disabled",
+  "cacheTimeout": 300,
+  "implementation": "ENDPOINT",
+  "scopes": [],
+  "isDefaultVersion": false,
+  "isPublishedDefaultVersion": false,
+  "environments": [
+    "Production and Sandbox"
+  ],
+  "createdTime": "1559561226625",
+  "additionalProperties": {},
+  "environmentList": [
+    "SANDBOX",
+    "PRODUCTION"
+  ],
+  "apiSecurity": "oauth2",
+  "accessControl": "all",
+  "rating": 0.0,
+  "isLatest": true
+}
