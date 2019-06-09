@@ -54,7 +54,7 @@
   ],
   "apiHeaderChanged": false,
   "apiResourcePatternsChanged": false,
-  "status": "CREATED",
+  "status": "PUBLISHED",
   "visibility": "public",
   "endpointSecured": false,
   "endpointAuthDigest": false,
