@@ -1,0 +1,88 @@
+{
+  "swagger": "2.0",
+  "paths": {
+    "/add": {
+      "post": {
+        "operationId": "add",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Payload",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/addInput"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/addOutput"
+            }
+          }
+        },
+        "x-wso2-soap": {
+          "soap-action": "urn:add",
+          "soap-operation": "add",
+          "namespace": "http://c.b.a",
+          "x-soap-version": "1.2"
+        },
+        "x-auth-type": "Application \u0026 Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    }
+  },
+  "info": {
+    "title": "Cal",
+    "version": "1.0.0"
+  },
+  "definitions": {
+    "addInput": {
+      "type": "object",
+      "properties": {
+        "add": {
+          "$ref": "#/definitions/add"
+        }
+      }
+    },
+    "addOutput": {
+      "type": "object",
+      "properties": {
+        "addResponse": {
+          "$ref": "#/definitions/addResponse"
+        }
+      }
+    },
+    "add": {
+      "type": "object",
+      "properties": {
+        "n1": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "n2": {
+          "type": "integer",
+          "format": "int32"
+        }
+      },
+      "xml": {
+        "namespace": "http://www.w3.org/2001/XMLSchema",
+        "prefix": "xs"
+      }
+    },
+    "addResponse": {
+      "type": "object",
+      "properties": {
+        "return": {
+          "type": "integer",
+          "format": "int32"
+        }
+      },
+      "xml": {
+        "namespace": "http://www.w3.org/2001/XMLSchema",
+        "prefix": "xs"
+      }
+    }
+  }
+}

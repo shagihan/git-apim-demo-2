@@ -1,0 +1,99 @@
+{
+  "id": {
+    "providerName": "admin",
+    "apiName": "Cal",
+    "version": "1.0.0"
+  },
+  "uuid": "39b2f934-ee22-4095-85b8-726dbd7e7534",
+  "type": "HTTP",
+  "context": "/cal/1.0.0",
+  "contextTemplate": "/cal/{version}",
+  "tags": [],
+  "documents": [],
+  "lastUpdated": "Jun 10, 2019 9:45:11 AM",
+  "availableTiers": [
+    {
+      "name": "Unlimited",
+      "displayName": "Unlimited",
+      "description": "Allows unlimited requests",
+      "requestsPerMin": 2147483647,
+      "requestCount": 2147483647,
+      "unitTime": 0,
+      "timeUnit": "ms",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    }
+  ],
+  "availableSubscriptionLevelPolicies": [],
+  "uriTemplates": [
+    {
+      "uriTemplate": "/add",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    }
+  ],
+  "apiHeaderChanged": false,
+  "apiResourcePatternsChanged": false,
+  "status": "PUBLISHED",
+  "visibility": "public",
+  "endpointSecured": false,
+  "endpointAuthDigest": false,
+  "transports": "http,https",
+  "advertiseOnly": false,
+  "corsConfiguration": {
+    "corsConfigurationEnabled": false,
+    "accessControlAllowOrigins": [
+      "*"
+    ],
+    "accessControlAllowCredentials": false,
+    "accessControlAllowHeaders": [
+      "authorization",
+      "Access-Control-Allow-Origin",
+      "Content-Type",
+      "SOAPAction"
+    ],
+    "accessControlAllowMethods": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE",
+      "PATCH",
+      "OPTIONS"
+    ]
+  },
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"https://svn.apache.org/repos/asf/airavata/sandbox/xbaya-web/test/Calculator.wsdl\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "responseCache": "Disabled",
+  "cacheTimeout": 300,
+  "implementation": "ENDPOINT",
+  "scopes": [],
+  "isDefaultVersion": false,
+  "isPublishedDefaultVersion": false,
+  "environments": [
+    "Production and Sandbox"
+  ],
+  "createdTime": "1560123887485",
+  "additionalProperties": {},
+  "environmentList": [
+    "PRODUCTION"
+  ],
+  "apiSecurity": "oauth2",
+  "accessControl": "all",
+  "rating": 0.0,
+  "isLatest": true
+}
