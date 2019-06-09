@@ -85,7 +85,7 @@
   "isDefaultVersion": false,
   "isPublishedDefaultVersion": false,
   "environments": [
-    "Production and Sandbox"
+    "Production"
   ],
   "createdTime": "1560123887485",
   "additionalProperties": {},
